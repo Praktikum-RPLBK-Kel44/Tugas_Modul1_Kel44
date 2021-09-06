@@ -4,6 +4,7 @@ var persen;
 var tampilan;
 var hasil;
 
+
 hapus = () => {
     document.getElementById("output").innerHTML="0";
     document.getElementById("tandaHasil").innerHTML="";
