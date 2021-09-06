@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator by Kelompok 44 - RPLBK21</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="judul">
+                <h1>Tugas Modul 1</h1>
+                <h3>Praktikum RPLBK</h3>
+            </div>
+            <div class="subjudul">
+                <p>Kalkulator by Kel44</p>
+            </div>
+            <div class="hasil">
+                <p id="output">0</p>
+            </div>
+            <div class="tanda">
+                <p id="tandaHasil"></p>
+            </div>
+            <div class="1-row">
+                <button id="r1-1" onclick="hapus()">C</button>
+                <button id="r1-2" onclick="tampilan('%')">mod</button>
+                <button id="r1-3" onclick="persen()">%</button>
+                <button id="r1-4" onclick="tampilan('/')">/</button>
+            </div>
+            <div class="2-row">
+                <button id="r2-1" onclick="tampilan('7')">7</button>
+                <button id="r2-2" onclick="tampilan('8')">8</button>
+                <button id="r2-3" onclick="tampilan('9')">9</button>
+                <button id="r2-4" onclick="tampilan('*')">*</button>
+            </div>
+            <div class="3-row">
+                <button id="r3-1" onclick="tampilan('4')">4</button>
+                <button id="r3-2" onclick="tampilan('5')">5</button>
+                <button id="r3-3" onclick="tampilan('6')">6</button>
+                <button id="r3-4" onclick="tampilan('-')">-</button>
+            </div>
+            <div class="4-row">
+                <button id="r4-1" onclick="tampilan('1')">1</button>
+                <button id="r4-2" onclick="tampilan('2')">2</button>
+                <button id="r4-3" onclick="tampilan('3')">3</button>
+                <button id="r4-4" onclick="tampilan('+')">+</button>
+            </div>
+            <div class="5-row">
+                <button id="r5-1" onclick="tampilan('0')" style="width: 153px;">0</button>
+                <button id="r5-2" onclick="tampilan('.')">.</button>
+                <button id="r5-3" onclick="hasil()" style="width: 152px;">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="a.js"></script>
+</body>
+</html>
